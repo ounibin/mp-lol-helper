@@ -1,0 +1,12 @@
+小头像
+https://game.gtimg.cn/images/lol/act/img/champion/Sona.png
+
+
+
+英雄默认皮肤背景
+https://yz.lol.qq.com/v1/assets/images/champion/splash/Vayne_0.jpg
+
+
+
+进入游戏加载框背景
+https://game.gtimg.cn/images/lol/act/img/skinloading/12000.jpg

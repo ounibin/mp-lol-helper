@@ -1,0 +1,10 @@
+<view class="container page-region-detail">
+  <block>
+    <video wx:if="{{canPlayVideo}}" class="region-video" src="{{videoUrl}}" controls="{{false}}" autoplay loop object-fit="fill"></video>
+    <image wx:else class="region-video" src="{{videoPoster}}" mode="aspectFill"></image>
+  </block>
+  <view class="content-wrapper">
+    <view class="region-name">{{regionName}}</view>
+    <rich-text class="region-content" nodes="{{richText}}"></rich-text>
+  </view>
+</view>

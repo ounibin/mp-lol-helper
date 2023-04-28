@@ -1,0 +1,6 @@
+<!--pages/girls/girls.wxml-->
+<block wx:for="{{imgList}}" wx:key="unique">
+  <image class="girl-img" src="{{item}}" mode="widthFix" lazy-load />
+    
+</block>
+  

@@ -1,0 +1,20 @@
+.region-wrapper {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-template-columns: repeat(3, 1fr);
+}
+.region-item {
+  margin: 0 auto;
+  padding: 1em;
+  border: 2rpx solid;
+  border-image: linear-gradient(180deg, #c5a86c, #fff8ea) 6 6;
+  margin-bottom: 50rpx;
+}
+.region-item > image {
+  width: 150rpx;
+  height: 150rpx;
+}
+.region-item > .name {
+  text-align: center;
+  margin-top: 1em;
+}

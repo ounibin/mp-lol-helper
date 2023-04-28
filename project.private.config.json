@@ -1,0 +1,49 @@
+{
+    "setting": {
+        "compileHotReLoad": true
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/role-detail/role-detail",
+                    "pathName": "pages/role-detail/role-detail",
+                    "query": "heroId=1",
+                    "scene": null
+                },
+                {
+                    "name": "pages/champion-detail/champion-detail",
+                    "pathName": "pages/champion-detail/champion-detail",
+                    "query": "name=aatrox",
+                    "scene": null
+                },
+                {
+                    "name": "pages/champion-story/champion-story",
+                    "pathName": "pages/champion-story/champion-story",
+                    "query": "storySlug=aatrox-color-story",
+                    "scene": null
+                },
+                {
+                    "name": "pages/regions/regions",
+                    "pathName": "pages/regions/regions",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/region-detail/region-detail",
+                    "pathName": "pages/region-detail/region-detail",
+                    "query": "name=bilgewater",
+                    "scene": null
+                },
+                {
+                    "name": "pages/girls/girls",
+                    "pathName": "pages/girls/girls",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "projectname": "mp-lol-helper",
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

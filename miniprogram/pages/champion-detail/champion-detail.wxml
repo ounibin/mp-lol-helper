@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="champion-wrapper">
+    <view class="champion-avator">
+      <image src="{{headImg}}" mode="aspectFill"></image>
+    </view>
+    <view class="champion-name">
+      <text class="h1 champion-name-cn">{{champion.name}}</text>
+      <text class="h2 champion-name-en">{{champion.title}}</text>
+    </view>
+    <view class="champion-quote">{{champion.quote}}</view>
+    <view class="champion-short">
+      <rich-text nodes="{{champion.full}}"></rich-text>
+      <view wx:if="{{showMoreBtn}}" class="read-more" bind:tap="openStory">阅读更多</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<view class="card">
+  <image class="card-bg" src="{{bgUrl}}" lazy-load mode="aspectFill"></image>
+  <view class="card-name-wrapper">
+    <text class="main-name">{{nameCn}}</text>
+    <text>{{nameEn}}</text>
+  </view>
+  <view class="dots-wrapper">
+    <view class="dots">
+      <view class="dot-item"></view>
+      <view class="dot-item"></view>
+      <view class="dot-item"></view>
+    </view>
+  </view>
+</view>

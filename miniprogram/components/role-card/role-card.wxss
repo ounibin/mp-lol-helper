@@ -1,0 +1,38 @@
+/* components/role-card/role-card.wxss */
+.role-card {
+  width: 216rpx;
+  height: 392rpx;
+  overflow: hidden;
+  position: relative;
+  border: 2rpx solid;
+  border-image: linear-gradient(180deg, #d9af62, #3e321d) 3 3;
+  text-align: center;
+  font-size: 22rpx;
+}
+
+.avator {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  bottom: 0;
+}
+
+.name {
+  width: 100%;
+  line-height: 2;
+  color: #539be5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn {
+  border: 2rpx solid;
+  border-image: linear-gradient(180deg, #c5a86c, #615234) 3 3;
+  background: linear-gradient(180deg, #14181c, #212426);
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/champions/champions",
+    "pages/champion-detail/champion-detail",
+    "pages/regions/regions",
+    "pages/region-detail/region-detail",
+    "pages/champion-story/champion-story",
+    "pages/role-detail/role-detail",
+    "pages/girls/girls"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColorTop": "#000",
+    "backgroundColorBottom": "#000",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "英雄和联盟故事",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#121212",
+    "color": "#efe5d1",
+    "selectedColor": "#00ffcc",
+    "list": [
+      {
+        "pagePath": "pages/champions/champions",
+        "text": "英雄",
+        "iconPath": "./imgs/icon-champion.png",
+        "selectedIconPath": "./imgs/icon-champion.png"
+      },
+      {
+        "pagePath": "pages/regions/regions",
+        "text": "地区",
+        "iconPath": "./imgs/icon-region.png",
+        "selectedIconPath": "./imgs/icon-region.png"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

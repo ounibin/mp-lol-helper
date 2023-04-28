@@ -1,0 +1,25 @@
+.content-wrapper {
+  color: #f0e6d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 48rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}
+
+.content-author {
+  color: #c8aa6e;
+  margin-top: 15rpx;
+}
+
+.content-main {
+  width: 80vw;
+  line-height: 2em;
+  font-size: 28rpx;
+  margin: 50rpx 0;
+}

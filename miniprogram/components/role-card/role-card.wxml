@@ -1,0 +1,8 @@
+<!-- components/role-card/role-card.wxml -->
+<view class="role-card" bind:tap="toRoleDetail">
+  <image class="avator" src="{{avatorUrl}}" lazy-load mode="aspectFill" bindload="imgLoaded"></image>
+  <view class="info">
+    <view class="name">{{title}} {{name}}</view>
+    <view class="btn">查看详情</view>
+  </view>
+</view>

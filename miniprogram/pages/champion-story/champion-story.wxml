@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="content-wrapper">
+    <view class="content-title">{{championStory.title}}</view>
+    <view wx:if="{{!!championStory.subtitle}}" class="content-author">{{championStory.subtitle}}</view>
+    <rich-text class="content-main" nodes="{{championStory.content}}"></rich-text>
+  </view>
+</view>

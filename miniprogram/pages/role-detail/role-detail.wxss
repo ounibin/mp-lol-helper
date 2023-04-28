@@ -1,0 +1,71 @@
+/* pages/role-detail/role-detail.wxss */
+
+.section {
+  box-sizing: border-box;
+  padding: 10rpx;
+  margin-bottom: 48rpx;
+}
+
+.bg-card {
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.bg-card > .h2 {
+  margin-bottom: 20rpx;
+}
+
+.avator {
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+  border: 2px solid #efe5d1;
+  box-shadow: 0 0 50rpx 2rpx #efe5d1;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+.skin-swiper {
+  height: 310rpx;
+}
+
+.skin-item {
+  width: 584rpx;
+  height: 297rpx;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skin-item > image {
+  width: 100%;
+  height: 100%;
+}
+
+.skin-item > .name {
+  width: 70%;
+  line-height: 1.2;
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+}
+
+
+.skill-item {
+  width: 66rpx;
+  height: 66rpx;
+  border: 4rpx solid transparent;
+  margin-right: 20rpx;
+}
+.skill-item.active {
+  border: 4rpx solid;
+  border-image: linear-gradient(180deg, #c5a86c, #fff8ea) 3 3;
+}
+.skill-item > image {
+  width: 100%;
+  height: 100%;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}

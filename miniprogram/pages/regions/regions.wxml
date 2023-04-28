@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="region-wrapper">
+    <block wx:for="{{regionList}}" wx:key="unique">
+      <view class="region-item" data-item="{{item}}" bind:tap="openRegionDetail">
+        <image src="{{item.iconUrl}}" mode="aspectFit" />
+        <view class="name">{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+</view>

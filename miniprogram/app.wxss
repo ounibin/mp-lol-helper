@@ -1,0 +1,35 @@
+/**app.wxss**/
+page {
+  box-sizing: border-box;
+  font-size: 28rpx;
+  padding: 18rpx 18rpx 100rpx 18rpx;
+  background: #030704 url('https://www.gankeapp.com/assets/img/bg.f3b02acc.png') center/cover no-repeat;
+  color: #efe5d1;
+}
+
+.bd {
+  border: 4rpx solid;
+  border-image: linear-gradient(180deg, #c5a86c, #fff8ea) 6 6;
+}
+
+.h1 {
+  font-size: 48rpx;
+  font-weight: bold;
+}
+.h2 {
+  font-size: 40rpx;
+  font-style: italic;
+}
+.h3 {
+  font-size: 32rpx;
+  font-style: italic;
+}
+
+.lol-btn {
+  width: fit-content;
+  font-size: 28rpx;
+  padding: .3em 1em;
+  border: 4rpx solid;
+  border-image: linear-gradient(180deg, #c5a86c, #fff8ea) 6 6;
+}
+

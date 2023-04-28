@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "role-card": "../../components/role-card/role-card",
+    "mp-searchbar": "weui-miniprogram/searchbar/searchbar"
+  }
+}

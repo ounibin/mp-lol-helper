@@ -1,0 +1,65 @@
+<!-- pages/role-detail/role-detail.wxml -->
+<image class="avator" src="{{avatorUrl}}" mode="aspectFill" />
+<!-- 技巧 -->
+<view class="section">
+  <view class="h1">🤡 技巧</view>
+  <view>
+    <view class="h2">使用TA</view>
+    <block wx:for="{{useTips}}" wx:key="unique">
+      <view>👍{{item}}</view>
+    </block>
+  </view>
+  <view>
+    <view class="h2">对抗TA</view>
+    <block wx:for="{{enemyTips}}" wx:key="unique">
+      <view>👀{{item}}</view>
+    </block>
+  </view>
+</view>
+
+<!-- 技能 -->
+<view class="section">
+  <view class="h1">🤖 技能</view>
+  <view class="skill-box">
+    <block wx:for="{{skills}}" wx:key="unique">
+      <image class="skill-item {{index===activeSkillIndex ? 'active' : ''}}" src="{{item.abilityIconPath}}" mode="aspectFill" data-index="{{index}}" bindtap="changeSkill" />
+    </block>
+  </view>
+  <view class="bg-card skill-intro">
+    <view class="h2">{{skills[activeSkillIndex].name}}</view>
+    <text class="desc">{{skills[activeSkillIndex].description}}</text>
+  </view>
+</view>
+<!-- 介绍 -->
+<view class="section">
+  <view class="h1">👺 背景</view>
+  <view class="bg-card">
+    <view class="h2 hero-title">
+      <text class="">{{heroIntro.name}}--</text>
+      <text class="h3 hero-name">{{heroIntro.title}}</text>
+    </view>
+    <view>{{heroIntro.shortBio}}</view>
+  </view>
+  <view class="more">
+    <view class="lol-btn" bind:tap="toMoreDetail">查看TA的生涯</view>
+  </view>
+</view>
+
+<!-- 皮肤 -->
+<!-- <view class="section">
+  <view class="h1">👺皮肤</view>
+  <swiper class="skin-swiper" indicator-dots autoplay interval="{{3000}}" indicator-color="#efe5d1" indicator-active-color="#539be5" previous-margin="50rpx" next-margin="50rpx">
+    <block wx:for="{{swiperList}}" wx:key="unique">
+      <swiper-item>
+        <view class="bd skin-item">
+          <image src="{{item.mainImg}}" mode="aspectFill" lazy-load />
+          <view class="name">{{item.name}}</view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view> -->
+
+
+
+

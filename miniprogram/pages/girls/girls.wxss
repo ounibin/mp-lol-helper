@@ -1,0 +1,6 @@
+/* pages/girls/girls.wxss */
+.girl-img {
+  width: 100%;
+  min-height: 300rpx;
+  margin-bottom: 20rpx;
+}

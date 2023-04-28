@@ -1,0 +1,18 @@
+.search-bar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .8);
+}
+.search-bar.stick {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.page-role-list {
+  padding-top: 100rpx;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20rpx;
+  grid-auto-flow: row dense;
+}
