@@ -8,5 +8,6 @@
   "author": "wangkj",
   "license": "ISC",
   "dependencies": {
+    "@huamu/wx-kit": "^0.0.1"
   }
 }
