@@ -56,10 +56,12 @@ Page({
   onLoad: function (options) {
     getAllRoles().then((res) => {
       const roleList = res.hero.map((item) => {
-        const { heroId, title, name, selectAudio, alias } = item
+        const { heroId, title, name, selectAudio, alias, instance_id } = item
+        const bg = `https://game.gtimg.cn/images/lol/act/img/skinloading/${instance_id}.jpg`
+        // const bg = `https://game.gtimg.cn/images/lol/act/img/skinloading/${heroId}000.jpg`
         return {
           heroId,
-          bg: `https://game.gtimg.cn/images/lol/act/img/skinloading/${heroId}000.jpg`,
+          bg,
           title: name,
           name: title,
           alias,

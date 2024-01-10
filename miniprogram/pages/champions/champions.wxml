@@ -2,7 +2,13 @@
   <mp-searchbar ext-class="search-bar stick" placeholder="请输入英雄名称" cancel="{{false}}" bindinput="handleSearchBarInput" bindclear="handleClearSearchBar"></mp-searchbar>
   <view class="page-role-list">
     <block wx:for="{{roleList}}" wx:key="unique">
-      <role-card heroId="{{item.heroId}}" avatorUrl="{{item.bg}}" title="{{item.title}}" name="{{item.name}}" audioUrl="{{item.audioUrl}}"></role-card>
+      <role-card
+        heroId="{{item.heroId}}"
+        avatorUrl="{{item.bg}}"
+        title="{{item.title}}" 
+        name="{{item.name}}" 
+        audioUrl="{{item.audioUrl}}"
+      ></role-card>
     </block>
   </view>
 </view>
