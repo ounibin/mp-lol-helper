@@ -1,6 +1,6 @@
 {
   "name": "mp-lol-helper",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "description": "介绍LOL中英雄使用技巧、背景故事，各个区域的故事等等的微信小程序",
   "main": "app.js",
   "scripts": {},
