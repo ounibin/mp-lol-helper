@@ -1,7 +1,9 @@
 <!-- pages/role-detail/role-detail.wxml -->
 <image class="avator" src="{{avatorUrl}}" mode="aspectFill" />
 <!-- 技巧 -->
+<!--
 <view class="section">
+
   <view class="h1">🤡 技巧</view>
   <view>
     <view class="h2">使用TA</view>
@@ -16,7 +18,7 @@
     </block>
   </view>
 </view>
-
+-->
 <!-- 技能 -->
 <view class="section">
   <view class="h1">🤖 技能</view>
